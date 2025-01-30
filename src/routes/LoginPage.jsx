@@ -1,8 +1,10 @@
-import { SignIn } from "@clerk/clerk-react"
+// import { SignUp } from "@clerk/clerk-react"
 
 const LoginPage = () => {
   return (
-    <div className=""><SignIn /></div>
+    <div className="">
+      {/* <SignUp /> */}
+    </div>
   )
 }
 

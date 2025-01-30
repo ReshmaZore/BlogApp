@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Homepage from "./routes/Homepage";
 
 const App = () => {
   return (
@@ -6,6 +7,7 @@ const App = () => {
       {/* NAVBAR */}
       <Navbar />
       {/* BREADCRUMB */}
+      <Homepage />
       {/* INTRODUCTION */}
       {/* FEATURED POSTS */}
       {/* POST LIST */}

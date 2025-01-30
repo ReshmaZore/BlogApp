@@ -9,13 +9,13 @@ import RegisterPage from './routes/RegisterPage.jsx';
 import Write from './routes/Write.jsx';
 import LoginPage from './routes/LoginPage.jsx';
 import Postlistpage from './routes/Postlistpage.jsx';
-import { ClerkProvider } from '@clerk/clerk-react';
+// import { ClerkProvider } from '@clerk/clerk-react';
 
-const PUBLISHABLE_KEY = "pk_test_aW5mb3JtZWQtbXVza3JhdC04MC5jbGVyay5hY2NvdW50cy5kZXYk";
+// const PUBLISHABLE_KEY = "pk_test_aW5mb3JtZWQtbXVza3JhdC04MC5jbGVyay5hY2NvdW50cy5kZXYk";
 
-if (!PUBLISHABLE_KEY) {
-  throw new Error("Missing Publishable Key");
-}
+// if (!PUBLISHABLE_KEY) {
+//   throw new Error("Missing Publishable Key");
+// }
 
 
 
@@ -54,9 +54,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ClerkProvider publishableKey={PUBLISHABLE_KEY}>
+    {/* <ClerkProvider publishableKey={PUBLISHABLE_KEY}> */}
      <RouterProvider router={router} />
-     </ClerkProvider>
+     {/* </ClerkProvider> */}
     
   </StrictMode>,
 )
