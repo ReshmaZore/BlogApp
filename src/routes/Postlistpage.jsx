@@ -1,10 +1,7 @@
-import React from 'react'
 
 const Postlistpage = () => {
   return (
-    <div>
-      
-    </div>
+    <div className="">Postlistpage</div>
   )
 }
 
